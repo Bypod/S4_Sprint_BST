@@ -12,7 +12,7 @@ public class BSTFunctions {
 //             inputs[i] = input.nextInt();
 //         }
 
-       
+
 
         // for (int in : inputs){
 
@@ -20,14 +20,38 @@ public class BSTFunctions {
 
          BST newTree = new BST();
 
-         newTree.insert(10)
-         newTree.insert(30)
-         newTree.insert(15)
-         newTree.insert(90)
-         newTree.insert(30)
-         newTree.insert(12)
+         //inserts
+         newTree.insert(88);
+         newTree.insert(30);
+         newTree.insert(15);
+         newTree.insert(90);
+         newTree.insert(999                                                                                                                                                                       );
+         newTree.insert(12);
 
-         newTree.inOrder(newTree.getRoot())
+         //display sorted tree
+         newTree.inorder(newTree.getRoot());
+
+         //delete key
+        newTree.deleteKey(999);
+
+        System.out.println("\n");
+
+        //in order
+        newTree.inorder(newTree.getRoot());
+        System.out.println("\n");
+
+        //pre order
+        newTree.preOrder(newTree.getRoot());
+        System.out.println("\n");
+
+        // post order
+        newTree.postOrder(newTree.getRoot());
+        System.out.println("\n");
+
+        System.out.println(newTree.search(15));
+
+
+
 
     }
 }

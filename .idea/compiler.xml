@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="s4_sprint2_BST" />
+        <module name="S4_Sprint_BST" />
       </profile>
     </annotationProcessing>
   </component>
