@@ -1,5 +1,11 @@
 package com.keyin;
 
+
+//JAMIE READ ME ---- Hey Jamie, I know this is not the best BST when it comes to incorperating a database as well. 
+// -- In the final day of the sprint I had to make a choice in what to do with our team sprint and as well in helping others with KPM.
+// -- ended up having to spend 7 hours with semester 3 students then work through many unforgiving errors in our group sprint.
+// -- ended up having to sacrafice some functionality in this part of the sprint because of all that. 
+// -- Just thought i would explain my thought process into why this might not be done up to what might be ideal for this project
 public class BST {
     //node class that defines BST node
     class Node {
